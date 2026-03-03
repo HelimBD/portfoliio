@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><script src="https://kit.fontawesome.com/8546c73f42.js" crossorigin="anonymous"></script><meta name="description" content="Freelancer Jabir, Full Stack Web Application Developer"><meta name="author" content="Freelancer Jabir"><meta name="keywords" content="Web Developer, Programmer, Freelancer Jabir, Web Design , Website , Website Developer , Web Application , Hire Web Developer , Website maker , Make Website , Build Website , Website Backend Application , Freelance Web Developer , Web developer freelancer jabir , Host my website , wordpress , php , html , css , js, JavaScript , mysql , MYSQL , "><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Helim Hasan Akash - Full Stack Web Application Developer , WP Customizer Developer And SEO Marketer</title><link rel="stylesheet" type="text/css" href="css/css-boot.css"><link rel="stylesheet" type="text/css" href="css/css-style.css"><link rel="stylesheet" type="text/css" href="css/css-media.css"><link rel="icon" type="icon/image" href="favicons/522-img-fav.png"><meta name="p:domain_verify" content="8e435c6ec33142514892484f16d081af"></head><body>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script><div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script><!-- Your Chat Plugin code --><div class="fb-customerchat" attribution="install_email" page_id="107903344228388" theme_color="#fa3c4c" logged_in_greeting="Hello ! How can I help you?" logged_out_greeting="Hello ! How can I help you?">
+      </div>
+	
+
+	<div class="container-fluid pb-5 bg">
+
+		<div class="container pt-3 pb-5">
+			<header id="header"><nav class="navbar navbar-expand-md bg-transparent navbar-dark"><a class="navbar-brand" href="#"><img src="images/img-fav.png" width="70px" class="img-fluid" id="changeimg"></a>
+					  <button class="navbar-toggler" type="button" id="theslidebtn">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse mobilenav" id="collapsibleNavbar">
+					    <ul class="navbar-nav ml-auto"><li class="nav-item">
+					        <a class="nav-link" href="#">&#2489;&#2507;&#2478;</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#about">&#2438;&#2478;&#2494;&#2480; &#2488;&#2478;&#2509;&#2474;&#2480;&#2509;&#2453;&#2503;</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#services">&#2465;&#2495;&#2460;&#2495;&#2463;&#2494;&#2482; &#2488;&#2503;&#2476;&#2494;</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#pricing">&#2438;&#2478;&#2494;&#2480; &#2488;&#2503;&#2476;&#2494;&#2480; &#2478;&#2498;&#2482;&#2509;&#2479;</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#contact">&#2479;&#2507;&#2455;&#2494;&#2479;&#2507;&#2455; &#2453;&#2480;&#2497;&#2472;</a>
+					      </li>
+					    </ul></div>  
+					</nav></header></div>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#theslidebtn").click(function() {
+					$("#collapsibleNavbar").slideToggle("1000");
+				});
+			});
+		</script><script type="text/javascript">
+			$(window).scroll(function() {
+				var scroll = $(window).scrollTop();
+				if(scroll > 100) {
+					$("#header").addClass("header");
+					$("#thefname").css("color","#032E42");
+					$("#theslidebtn").addClass("custombtnstyle");
+					//$("#changeimg").attr("src","img/logo.png");
+					
+				}else {
+					$("#header").removeClass("header");
+					$("#thefname").css("color","#fff");
+					$("#theslidebtn").removeClass("custombtnstyle");
+				//	$("#changeimg").attr("src","img/logo2.png");
+				}
+			});
+		</script><div class="container text-center mb-5 pt-5 pb-5">
+			<h1 class="hero display-2 cusheader" style="font-family: poppins !important">স্বাগতম<br>হেলিম হাসান আকাশ</h1>
+			<br><p id="text" class="text-white"><span id="typeline" class="h4"></span></p>
+			<br><a href="#contact" style="font-size: 20px;" class="cusbtn btn poppins">যোগাযোগ করুন</a>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+                  function write (obj, sentence, i, cb) {
+                    if (i != sentence.length) {
+                      setTimeout(function () {
+                        i++
+                        console.log('in timeout', i)
+                        obj.innerHTML = sentence.substr(0, i+1) +' <em aria-hidden="true">';
+                        write(obj, sentence, i, cb)
+                      }, 50)
+                    } else {
+                      console.log(i)
+                      cb()
+                    }
+                  }
+                   function erase (obj, cb,i) {
+                   var sentence = obj.innerText
+                      if (sentence.length != 0) {
+                       setTimeout(function () {
+                       sentence = sentence.substr(0,sentence.length-1)
+                       console.log('in timeout', i)
+                       obj.innerText = sentence
+                       erase(obj, cb)
+                        }, 18/(i*(i/10000000)))
+                        } else {
+                        obj.innerText = " "
+                        cb()
+                     }
+                    }
+                    var typeline = document.querySelector("#typeline")
+
+                     function writeerase(obj, sentence, time, cb) {
+                      write(obj, sentence, 0, function () {
+                       setTimeout(function () {
+                       erase(obj, cb) }, time) })
+                       }
+
+                  var sentences = [
+                    "আমি একজন ফুলটাইম ফ্রিল্যান্সার",
+                    "আমি একজন সম্পূর্ণ স্ট্যাক ওয়েব অ্যাপ্লিকেশন বিকাশকারী",
+                    "আমি ওয়ার্ডপ্রেস বিকাশকারী",
+                    "আমি একজন এসইও বিপণনকারী",
+                    "আমি একজন ওয়েব প্রোগ্রামার"
+                  ]
+                    
+                  var counter = 0
+                  function loop () {
+                    var sentence = sentences[counter % sentences.length]
+                    writeerase(typeline, sentence, 5000, loop)
+                    counter++
+                  }
+                  loop()
+		</script><div class="container cusbg pt-5 pb-5" style="box-shadow: 1px 20px 20px 11px #eb252821">
+			<div class="row">
+				<div class="col-sm-12 m-auto col-lg-3 pt-4 pb-4 col-md-4 text-center font-weight-bold  text-white"><h1 class="m-0"><span class="stat-number">২০</span><br></h1>
+					<span class="h5">কাজ সম্পন্ন</span></div>
+				<div class="col-sm-12 m-auto col-lg-3 pt-4 pb-4 col-md-4 text-center font-weight-bold  text-white"><h1 class="m-0"><span class="stat-number">১৮</span></h1>
+					<span class="h5">ক্লায়েন্ট সন্তুষ্ট</span></div>
+				<div class="col-sm-12 m-auto col-lg-3 pt-4 pb-4 col-md-4 text-center font-weight-bold  text-white"><h1 class="m-0"><span class="stat-number">৩০০০</span> +</h1>
+					<span class="h5">ঘুমহীম রাত</span></div>
+			</div>
+		</div>
+
+		<div class="container-fluid pt-5 pb-5" id="about">
+			<div class="container">
+				
+			</div>
+			<h1 class="font-weight-bold poppins text-center"><span style="font-family: poppins !important;color: rgb(129, 3, 179) !important">আমার </span> <span style="color : #032E42 !important">সম্পর্কে</span></h1>
+			<p class="text-center font-weight-bold text-muted">আমার সম্পর্কে কিছু তথ্য</p>
+			<br><div class="container">
+				<div class="row">
+				<div class="col-sm-12 col-lg-5 col-md-12 text-center pt-5 mt-5 mb-5" id="aboutid">
+					<div class="container shapeimg"><img src="images/img-shape.png" class="img-fluid trans"></div>
+					<div class="container img">
+						<img src="images/img-lap.jpg" alt="Freelancer Jabir" style="border-radius: 100000px !important;border: 11px solid #fff" class="img-fluid rounded theimg w-75"></div>
+				</div>
+				<div class="col-sm-12 col-lg-7 col-md-12 mt-5 pt-4 mb-5 thetextalign">
+					<h2 class="poppins font-weight-bold text-uppercase "><span style="color : rgb(112, 3, 94) !important">হেলিম</span> <span style="color : #032E42 !important">হাসান</span> <span style="font-family: poppins !important;color: #E81E2C !important">আকাশ</span></h2>
+					<p class="text-muted font-weight-bold eng">Full Stack Web Application Developer || Domain Hosting Provider || Web Designer || Web Developer || Founder of <a href="https://mtunes.us" target="_blank" class="text-danger font-weight-bold">mTunes</a></p>
+					<p class="d-none">#website_design #website_development #web_application #wordpresswebsite #freelancewebdeveloper #websitefix #ecommercewebsite #businessapplication #wordpresstheme #customizethemewordpress  #cmswordpress #woocommece #webapp #laravelapp #phpdeveloper Web Developer, Programmer, Freelancer Jabir, Web Design , Website , Website Developer , Web Application , Hire Web Developer , Website maker , Make Website , Build Website , Website Backend Application , Freelance Web Developer , Web developer freelancer jabir , Host my website , wordpress , php , html , css , js, JavaScript , mysql , MYSQL</p>
+					<br><p class="font-weight-bold">আমি ওয়েবসাইট ডিজাইন, ওয়েব বিকাশ, ওয়ার্ডপ্রেস বিকাশকারী এবং এসইও সম্পর্কে ৫ বছরের অভিজ্ঞতা সহ হেলিম হাসান আকাশ । আমার অভিজ্ঞতা আমাকে আধুনিক তৈরি করতে সক্ষম করে; উচ্চ মানের, পেশাদার চেহারা এবং অনুভূতি সহ প্রতিক্রিয়াশীল ওয়েব সাইটগুলি।<br/><br/>
+
+						একটি ভাল ওয়েবসাইট বিপণন ভাগকে ভাল করে তোলে এবং কোনও সংস্থার বিবরণ খুব ভালভাবে দেখানোর সেরা উপায়। আমি কি অফার করতে পারি? * প্রতিক্রিয়াশীল ওয়েব ডিজাইন (সমস্ত ডিভাইসের জন্য)। * দ্রুততম লোডিং সময়। * ফ্রন্ট-এন্ড সমর্থন প্রিলোডার তৈরি করা হচ্ছে। আমি এইচটিএমএল 5, সিএসএস 3, জাভাস্ক্রিপ্ট, জ্যাকোয়ারি, বুটস্ট্র্যাপ, পিএইচপি এবং মাইএসকিউএল জানি ... সুতরাং আমার 3 বছরের অভিজ্ঞতার সাথে আমি আপনাকে আরও ভাল পরিষেবাগুলি দিতে পারি</p>
+					<a href="https://www.facebook.com/live.helim" target="_blank" class="face" style="color: #0879E9 !important"><i class="fab fa-facebook"></i></a>
+					<a href="https://twitter.com/helim14" target="_blank" class="face"><i class="fab fa-twitter" aria-hidden="true" style="color: #1DA1F2 !important"></i></a>
+  					<a href="https://www.linkedin.com/in/helimhasanakash/" target="_blank" class="face"><i class="fab fa-linkedin-in" aria-hidden="true" style="color : #0073B0 !important"></i></a>
+  					<a href="https://www.instagram.com/live.helim/" target="_blank" class="face"><i class="fab fa-instagram" aria-hidden="true" style="color : #FF1152"></i></a>
+  					<br><br><a href="freelancer_jabir.pdf" target="_blank" class="custombtn btn poppins"><span class="eng font-weight-bold">CV</span> &#2465;&#2494;&#2441;&#2472;&#2482;&#2507;&#2465; &#2453;&#2480;&#2497;&#2472;</a>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="container mb-5 pb-5">
+				<div class="row">
+					<div class="col-sm-12 pt-5 pb-5 col-md-6 m-auto col-lg-6">
+						<h2 class="poppins font-weight-bold text-uppercase thetextalign"><span style="color : rgb(82, 1, 71) !important">আমার </span> <span style="font-family: poppins !important;color: rgb(22, 84, 199) !important">দক্ষতা</span></h2>
+						<br><div class="all_skills">
+							<span class="font-weight-bold float-right poppins small" style="color: #002E4A">80%</span>
+							<span class="font-weight-bold poppins small" style="color: rgb(74, 0, 55)">ওয়েব ডিজাইন</span>
+							<div class="thebar">
+								<div class="webdesignbar"></div>
+							</div>
+							<br><span class="font-weight-bold float-right poppins small" style="color: #002E4A">90%</span>
+							<span class="font-weight-bold poppins small" style="color: rgb(114, 6, 156)">ওয়েব ডেভেলপমেন্ট</span>
+							<div class="thebar">
+								<div class="webdesignbar development"></div>
+							</div>
+							<br><span class="font-weight-bold float-right poppins small" style="color: #002E4A">85%</span>
+							<span class="font-weight-bold poppins small" style="color: rgb(99, 15, 110)">লারাভেল</span>
+							<div class="thebar">
+								<div class="webdesignbar laravel"></div>
+							</div>
+
+							<br><span class="font-weight-bold float-right poppins small" style="color: #002E4A">65%</span>
+							<span class="font-weight-bold poppins small" style="color: rgb(163, 6, 155)">ওয়ার্ডপ্রেস</span>
+							<div class="thebar">
+								<div class="webdesignbar wordpress"></div>
+							</div>
+
+						</div>						
+					</div>
+					<div class="col-sm-12 pt-5 pb-5 col-md-5 m-auto col-lg-5">
+						<img src="images/img-helim.jpg" class="img-fluid"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid pt-5 pb-5" id="services">
+		<h1 class="text-center poppins text-white">আমারদের  <span class="" style="font-family: poppins !important;color :  #E81E2C">সেবা</span></h1>
+		<p class="text-center text-white font-weight-bold">আমি আমার ক্লায়েন্টদের জন্য পরিষেবাগুলি প্রদান করি।</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 mt-5 mb-5 col-12 col-md-12 col-lg-3 col-xl-3 ml-auto bg-white text-center rounded box mr-auto">
+					<div class="text-center ab"><i class="fas fa-laptop" style="padding: 20px 17px;border-radius: 100px;" aria-hidden="true"></i></div>
+					<br><br><h4 class="edo cuscolor text-center poppins" style="color: rgb(97, 5, 105) !important">ওয়েব ডিজাইন</h4>
+					<p class="text-center text-muted font-weight-bold">আমি আকর্ষণীয়, আধুনিক এবং আকর্ষণীয় ওয়েবসাইটগুলি ডিজাইন করেছি যা দর্শকের চোখকে ধরে ফেলে।</p>
+					<br></div>
+				<div class="col-sm-12 col-12 mt-5 mb-5 col-md-12 col-lg-3 col-xl-3 ml-auto bg-white text-center rounded box mr-auto">
+					<div class="text-center ab"><i class="fas fa-code" style="padding: 20px 17px;border-radius: 100px;" aria-hidden="true"></i></div>
+					<br><br><h4 class="edo cuscolor text-center poppins" style="color: rgb(97, 5, 105) !important">ওয়েব ডেভেলপমেন্ট</h4>
+					<p class="text-center text-muted font-weight-bold">আমি ব্যাকএন্ডের সাথেও কাজ করি তাই ওয়েবসাইটের কার্যকারিতা তৈরির জন্য ওয়েব অ্যাপ্লিকেশনগুলি তৈরি করতে পারি যা দুর্দান্ত অভিজ্ঞতা দেয়</p>
+					<br></div>
+				<div class="col-sm-12 col-12 mt-5 mb-5 col-md-12 col-lg-3 col-xl-3 ml-auto bg-white text-center rounded box mr-auto">
+					<div class="text-center ab"><i class="fab fa-wordpress-simple" style="padding: 20px;border-radius: 100px;" aria-hidden="true"></i></div>
+					<br><br><h4 class="edo cuscolor text-center poppins" style="color: rgb(97, 5, 105) !important">ওয়ার্ডপ্রেস</h4>
+					<p class="text-center text-muted font-weight-bold">আমি একটি ওয়ার্ডপ্রেস কাস্টমাইজার এবং বিকাশকারী। সুতরাং আমি আপনার WP ওয়েবসাইট সঠিকভাবে পরিচালনা করতে পারি</p>
+					<br></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 mt-5 mb-5 col-12 col-md-12 col-lg-3 col-xl-3 ml-auto bg-white text-center rounded box mr-auto">
+					<div class="text-center ab"><i class="fas fa-mobile-alt" style="padding: 20px 24px;border-radius: 100px;" aria-hidden="true"></i></div>
+					<br><br><h4 class="edo cuscolor text-center poppins" style="color: rgb(97, 5, 105) !important">প্রতিক্রিয়াশীল নকশা</h4>
+					<p class="text-center text-muted font-weight-bold">আমি এর জন্য প্রতিক্রিয়াশীল ওয়েবসাইটগুলিও ডিজাইন করেছি আপনি যে কোনও ডিভাইসে আপনার ওয়েবসাইট ব্যবহার করতে পারেন</p>
+					<br></div>
+				<div class="col-sm-12 col-12 mt-5 mb-5 col-md-12 col-lg-3 col-xl-3 ml-auto bg-white text-center rounded box mr-auto">
+					<div class="text-center ab"><i class="fab fa-node-js" style="padding: 20px;border-radius: 100px;" aria-hidden="true"></i></div>
+					<br><br><h4 class="edo cuscolor text-center poppins" style="color: rgb(97, 5, 105) !important">প্রোগ্রামিং</h4>
+					<p class="text-center text-muted font-weight-bold">আমি জীবনকে আরও সহজ এবং দ্রুত করার জন্য প্রোগ্রামগুলিও তৈরি করি programs এমন প্রোগ্রামগুলির ব্যবহার যা আপনি প্রতিদিনের জীবন পরিচালনা করতে পারেন</p>
+					<br></div>
+				<div class="col-sm-12 col-12 mt-5 mb-5 col-md-12 col-lg-3 col-xl-3 ml-auto bg-white text-center rounded box mr-auto">
+					<div class="text-center ab"><i class="fas fa-search" style="padding: 20px;border-radius: 100px;" aria-hidden="true"></i></div>
+					<br><br><h4 class="edo cuscolor text-center poppins" style="color: rgb(97, 5, 105) !important">এসইও</h4>
+					<p class="text-center text-muted font-weight-bold">আমি <span class="eng font-weight-bold">SEO</span> এ কাজ করি যা অনুসন্ধান ইঞ্জিন অপটিমাইজেশন হিসাবে পরিচিত যা আপনাকে শীর্ষে ওয়েবসাইটের র‌্যাঙ্ক করতে সহায়তা করে।</p>
+					<br></div>
+			</div>
+		</div>
+		<br></div>
+
+	<div class="container-fluid pt-4 pb-4" id="pricing">
+		<br><h1 class="text-center poppins text-white"><span style="color: rgb(13, 65, 177)">আমার </span> <span class="" style="font-family: poppins !important;color :  rgb(102, 14, 143)">সেবার মূল্য</span></h1>
+		<p class="text-center font-weight-bold text-muted">সস্তা দামে শীর্ষস্থানীয় পরিষেবাগুলি করুন</p>
+		<br><br><div class="container pt-4 mt-5">
+			<div class="row aos-init aos-animate" data-aos="zoom-in-up">
+<div class="col-sm-12 col-12 col-md-12 col-lg-3 mb-4 ml-auto mr-auto ml-1 mr-1" style="border: 6px solid #F2F3F5;padding: 0px !important">
+<div class=" text-center">
+<h2 class="poppins font-weight-bold m-0 pt-3 pb-3" style="color: rgb(13, 65, 177)">বেসিক</h2>
+</div>
+<div class="bg-light pt-3 pb-3 text-center">
+<h1 class="font-weight-bold poppins" style="color: rgb(93, 10, 126)"><sup class="text-muted" id="currency">&#2547;</sup><span id="thebasicmoney">২০০০</span></h1>
+</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold eng">Static Website</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold eng">Website Design</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold eng">Portfolio Website</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold eng">Business Website Design</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold eng">Corporate Website Design</div>
+<div class="bg-light text-center pt-3 pb-3">
+<div class="container"><a href="#contact" class="firstbtn cusbtn poppins btn-block btn">সেবা কিনুন</a></div>
+</div>
+</div>
+<div class="col-sm-12 col-12 col-md-12 mb-4 col-lg-4 ml-auto mr-auto ml-1 mr-1" style="border: 6px solid #F2F3F5;padding: 0px !important;transform: scale(1.1);box-shadow: 0px 0px 30px #0000002b">
+<div class=" text-center">
+<h2 class="poppins font-weight-bold m-0 pt-3 pb-3" style="color: rgb(13, 65, 177)">প্রিমিয়াম</h2>
+</div>
+<div class="bg-light pt-3 pb-3 text-center">
+<h1 class="font-weight-bold poppins" style="color: rgb(93, 10, 126)"><sup class="text-muted" id="premiumcurrency">&#2547;</sup><span id="thepremiummoney">৮০০০</span></h1>
+</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold">Dynamic Website</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold">Backend Application Features</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold">Newspaper Websites</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold">E-commerce Store</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold">Wordpress Websites</div>
+<div class="bg-light text-center pt-3 pb-3">
+<div class="container"><a href="#contact" class="firstbtn cusbtn poppins btn-block btn">সেবা কিনুন</a></div>
+</div>
+</div>
+<div class="col-sm-12 col-12 col-md-12 mb-4 col-lg-3 ml-auto mr-auto ml-1 mr-1" style="border: 6px solid #F2F3F5;padding: 0px !important">
+<div class=" text-center">
+<h2 class="poppins font-weight-bold m-0 pt-3 pb-3" style="color: rgb(13, 65, 177)">স্ট্যান্ডার্ড</h2>
+</div>
+<div class="bg-light pt-3 pb-3 text-center">
+<h1 class="font-weight-bold poppins" style="color: rgb(93, 10, 126)"><sup class="text-muted" id="standardcurrency">&#2547;</sup><span id="thestandartmoney">৪০০০</span></h1>
+</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold">Dynamic System</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold">PHP Applications</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold">Store Based Shop</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold">Business Application</div>
+<div class="border-top border-left border-right text-center pt-3 pb-3 text-muted font-weight-bold">Corporate Website Applictions</div>
+<div class="bg-light text-center pt-3 pb-3">
+<div class="container"><a href="#contact" class="firstbtn cusbtn poppins btn-block btn">সেবা কিনুন</a></div>
+</div>
+</div>
+</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid mt-5 mb-5" id="contact">
+		<h1 class="text-center"> <span style="color : rgb(108, 15, 121) !important" class="font-weight-bold poppins">যোগাযোগ</span> <span style="font-family: poppins !important;color: rgb(13, 73, 184) !important">করুন</span> </h1>
+		<p class="text-center text-muted font-weight-bold">আমার সাথে যোগাযোগ করুন</p>
+		<br><div class="container mt-4 mb-4">
+			<div class="row">
+				<div class="col-sm-12 mt-5 mb-5 col-md-12 col-lg-6">
+					<div class="row">
+						<div class="col-sm-6 col-6 col-md-6 col-lg-6">
+							<h6 class="font-weight-bold poppins">প্রথম নাম লিখুন :</h6>
+							<input type="text" name="fname" placeholder="প্রথম নাম লিখুন" required class="btn btn-block text-left rounded-0" id="fname"></div>
+						<div class="col-sm-6 col-6 col-md-6 col-lg-6">
+							<h6 class="font-weight-bold poppins">শেষ নাম লিখুন :</h6>
+							<input type="text" name="lname" placeholder="শেষ নাম লিখুন " required class="btn btn-block text-left rounded-0" id="lname"></div>
+					</div>
+					<br><h6 class="font-weight-bold poppins">ইমেইল অ্যাড্রেস দিন :</h6>
+					<input type="email" placeholder="ইমেইল অ্যাড্রেস দিন" class="btn btn-block text-left rounded-0" name="email" id="email" required><br>
+					<h6 class="font-weight-bold poppins">আপনার মেসেজ লিখুন :</h6>
+					<textarea class="btn btn-block text-left rounded-0" id="msg" rows="6" placeholder="আপনার মেসেজ লিখুন" name="msg"></textarea><br><div class="container-fluid text-white font-weight-bold poppins" style="background: #E81E2C !important;" id="msgbox">
+						<p style="color: white !important;padding: 5px 0px;" id="textbox"></p><p>
+					</p></div>
+					<br><input type="submit" value="বার্তা পাঠান" class="poppins cusbtn border-0" id="submit" name=""></div>
+				<div class="col-sm-12 mt-5 mb-5 pt-5 pb-5 col-md-12 col-lg-5 m-auto formdetials">
+					<br><br><br><div class="container">
+							<div class="media">
+							 	<i class="fas fa-phone-alt" style="color: white ;background: rgb(218, 10, 96);border-radius: 10000px;font-size: 35px;padding: 18px"></i>
+							  <div class="media-body text-white pl-4">
+							    <h5 class="mt-0 font-weight-bold poppins">আমার সাথে যোগাযোগ করুন</h5>
+							    <p class="text-white m-0"><b>ইমেইল : </b> <a href="mailto:helim075@gmail.com" class="text-white eng">helim075@gmail.com</a> </p>
+							    <p class="text-white"><b>ফোন করুন </b> <a href="tel:+8801983446721" class="text-white eng">+8801983446721</a> </p>
+							  </div>
+						</div>
+						<br><div class="media">
+							 	<i class="fas fa-map-marker-alt" style="color: white ;background: #610622;border-radius: 10000px;font-size: 35px;padding: 18px 22px"></i>
+							  <div class="media-body text-white pl-4">
+							    <h5 class="mt-0 font-weight-bold poppins">আমার অবস্থান</h5>
+							    <p class="text-white eng ">বাঁশবাড়ী,শ্রীপুর,গাজীপুর,১৭৪০</p>
+							  </div>
+						</div>
+						<br><br><div class="media">
+							 	<i class="fas fa-share-alt" style="color: white ;background: #215cc9;border-radius: 10000px;font-size: 35px;padding: 18px 22px"></i>
+							  <div class="media-body text-white pl-4">
+							    <h5 class="mt-0 font-weight-bold poppins">অনুসরণ করুন</h5>
+							    <a href="https://www.facebook.com/live.helim" target="_blank" class="face pl-0" style="color: #fff !important"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+							    <a href="https://twitter.com/helim14" target="_blank" class="face"><i class="fab fa-twitter" aria-hidden="true" style="color: #fff !important"></i></a>
+							    <a href="https://www.linkedin.com/in/helimhasanakash/" target="_blank" class="face"><i class="fab fa-linkedin-in" aria-hidden="true" style="color : #fff !important"></i></a>
+							    <a href="https://www.instagram.com/live.helim/" target="_blank" class="face"><i class="fab fa-instagram" aria-hidden="true" style="color : #fff"></i></a>
+							  </div>
+						</div>
+						<br><br><br><br></div>
+				</div>
+			</div>
+		</div>
+		<br></div>
+
+	<script type="text/javascript">
+		$("#msgbox").slideUp();
+		$("#submit").click(function() {
+			var fname = $("#fname").val();
+			var lname = $("#lname").val();
+			var email = $("#email").val();
+			var msg = $("#msg").val();
+			if(!fname == "" && !lname == "" && !email == "" && !msg == "") {
+				$("#msgbox").slideUp("1000");
+				$("#textbox").html("");
+
+				$("#msgbox").slideDown("1000");
+				$("#textbox").html("&#2447;&#2453;&#2463;&#2495; &#2478;&#2507;&#2478;&#2503;&#2472;&#2509;&#2463; &#2476;&#2494;&#2480;&#2509;&#2468;&#2494; &#2474;&#2509;&#2480;&#2503;&#2480;&#2467; &#2437;&#2474;&#2503;&#2453;&#2509;&#2487;&#2494; &#2453;&#2480;&#2497;&#2472; ...");
+				$.post("sendmessages.php",{fname: fname , lname : lname , email: email , msg: msg},function(data) {
+					if(data == "true") {
+						$("#msgbox").slideDown("1000");
+						$("#textbox").html("&#2476;&#2494;&#2480;&#2509;&#2468;&#2494; &#2488;&#2475;&#2482;&#2477;&#2494;&#2476;&#2503; &#2474;&#2509;&#2480;&#2503;&#2480;&#2467;");
+						$("#fname").val("");
+						$("#lname").val("");
+						$("#email").val("");
+						$("#msg").val("");
+					}else if(data == "false") {
+						$("#msgbox").slideDown("1000");
+						$("#textbox").html("&#2453;&#2495;&#2459;&#2497; &#2477;&#2497;&#2482; ! &#2437;&#2472;&#2497;&#2455;&#2509;&#2480;&#2489;&#2474;&#2498;&#2480;&#2509;&#2476;&#2453; &#2438;&#2476;&#2494;&#2480; &#2458;&#2503;&#2487;&#2509;&#2463;&#2494; &#2453;&#2480;&#2497;&#2472;");
+					}else {
+					}
+
+				});
+			}else {
+				$("#msgbox").slideDown("1000");
+				$("#textbox").html("&#2470;&#2479;&#2492;&#2494; &#2453;&#2480;&#2503; &#2488;&#2478;&#2488;&#2509;&#2468; &#2453;&#2509;&#2487;&#2503;&#2468;&#2509;&#2480; &#2479;&#2469;&#2494;&#2479;&#2469;&#2477;&#2494;&#2476;&#2503; &#2474;&#2498;&#2480;&#2467; &#2453;&#2480;&#2497;&#2472;");
+			}
+		});
+	</script><div class="pt-2 pb-2 bg-light"></div>
+
+	<footer class="pt-5 pb-5 thetextalign"><div class="container">
+			<div class="row">
+			<div class="col-sm-12 pt-3 pb-3 col-12 col-md-12 col-lg-3">
+				<img src="images/img-logo.png" class="img-fluid"><p class="font-weight-bold">Hello Dear, I'm Helim Hasan Akash with 5 yrs of experience about Website Designs, Web Development , Wordpress Developer and SEO . <a href="#contact" class="font-weight-bold" style="color: rgb(83, 6, 134)"><br/>Contact With Me</a></p>
+			</div>
+			<div class="col-sm-12 pt-3 pb-3 col-12 col-md-12 col-lg-3">
+				<h5 class="hero poppins font-weight-bold">হেলিম হাসান আকাশ</h5>
+				<ul class="p-0 list-unstyled thelinks"><li><a href="#about"> <i class="fas fa-chevron-right"></i>  আমার সম্পর্কে</a></li>
+					<li><a href="#contact"> <i class="fas fa-chevron-right"></i>  যোগাযোগ করুন</a></li>
+					<li><a href="#services"> <i class="fas fa-chevron-right"></i> আমাদের সেবা</a></li>
+				</ul></div>
+			<div class="col-sm-12 pt-3 pb-3 col-12 col-md-12 col-lg-3">
+				<h5 class="hero poppins font-weight-bold">সেরা কাজ</h5>
+				<br><div class="media">
+				 <a href="https://mtunes.us" target="_blank" class="text-danger border-light border-0"> <img src="images/img-ss.png" class="mr-3" width="100" alt="..."></a>
+				  <div class="media-body">
+				    <h6 class="m-0 font-weight-bold eng">Forum WebSite!</h6>
+				    <a href="https://mtunes.us" target="_blank" class="text-danger eng border-light border-0">View Website</a>
+				  </div>
+				</div>
+				<br><div class="media">
+				  <a href="https://trickalo.com" target="_blank" class="text-danger border-light border-0"><img src="images/img-ss2.png" class="mr-3" width="100" alt="..."></a>
+				  <div class="media-body">
+				    <h6 class="m-0 font-weight-bold eng">Blogging Script!</h6>
+				    <a href="https://trickalo.com/" target="_blank" class="text-danger eng border-light border-0">View Website</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-sm-12 pt-3 pb-3 col-12 col-md-12 col-lg-3">
+				<h5 class="hero poppins font-weight-bold">যোগাযোগ করুন</h5>
+				<p class="font-weight-bold eng">বাঁশবাড়ী,শ্রীপুর,গাজীপুর,১৭৪০</p>
+				<p class="font-weight-bold m-0 eng"><b> <i class="fas fa-envelope"></i>ইমেইল :</b> <a href="mailto:helim075@gmail.com" style="color: #E81E2C !important">helim075@gmail.com</a> </p>
+				<p class="font-weight-bold"> <i class="fas fa-phone-alt"></i>  <b>  ফোন করুন : </b> <a href="tel:+8801983446721" style="color: #E81E2C !important">+8801983446721</a> </p>
+				<a href="https://www.facebook.com/live.helim" target="_blank" class="face" style="color: #0879E9 !important"><i class="fab fa-facebook"></i></a>
+					<a href="https://twitter.com/helim14" target="_blank" class="face"><i class="fab fa-twitter" aria-hidden="true" style="color: #1DA1F2 !important"></i></a>
+  					<a href="https://www.linkedin.com/in/helimhasanakash/" target="_blank" class="face"><i class="fab fa-linkedin-in" aria-hidden="true" style="color : #0073B0 !important"></i></a>
+  					<a href="https://www.instagram.com/live.helim/" target="_blank" class="face"><i class="fab fa-instagram" aria-hidden="true" style="color : #FF1152"></i></a>
+			</div>
+		</div>
+	</div>
+	</footer><div class="pt-2 pb-2 container-fluid text-center text-white" style="background : rgb(8, 88, 126)">
+		<h6 class="m-0 poppins font-weight-normal">All Rights Reserved By Helim Hasan Akash</h6>
+	</div>
+
+
+</body></html>
